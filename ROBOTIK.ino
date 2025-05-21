@@ -5,8 +5,8 @@
 #include <BlynkSimpleEsp8266.h>
 #include <Servo.h>
 
-char ssid[] = "Redmi";      // Wi-Fi adınız
-char pass[] = "12345678dd"; // Wi-Fi şifreniz
+char ssid[] = "*****";      // Wi-Fi adınız
+char pass[] = "*****"; // Wi-Fi şifreniz
 
 Servo servo1; // D1'deki servo motor
 Servo servo2; // D2'deki servo motor
