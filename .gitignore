@@ -1,0 +1,16 @@
+# Geçici dosyalar
+*.tmp
+*.log
+
+# Sistem dosyaları
+.DS_Store
+Thumbs.db
+
+# Python projeleri için
+__pycache__/
+*.pyc
+
+# Arduino / VS Code gibi IDE dosyaları
+.vscode/
+*.hex
+*.elf
