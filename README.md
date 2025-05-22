@@ -1,40 +1,40 @@
-# 🤖 IoT Tabanlı Gripper Projesi
+# 🤖 IoT-Based Gripper Project
 
-Bu proje, Wi-Fi üzerinden uzaktan kontrol edilebilen ve servo motorlar ile nesne kavrayabilen bir robotik sistemdir. Sistem, Blynk uygulaması kullanılarak mobil cihazdan kontrol edilir. Bu uygulama, özellikle akıllı lojistik ve otomasyon uygulamaları için prototip olarak geliştirilmiştir.
+This project is a robotic system that can be remotely controlled over Wi-Fi and is capable of grasping objects using servo motors. The system is operated via the Blynk mobile application, making it a prototype especially suitable for smart logistics and automation applications.
 
-## 📌 Proje Videosu
-📹 [YouTube'da İzle](https://youtu.be/d5sRWF0U2fg)
+## 📌 Project Video
+📹 [Watch on YouTube](https://youtu.be/d5sRWF0U2fg)
 
-## 🧰 Kullanılan Teknolojiler ve Malzemeler
-- ESP8266 Wi-Fi Modülü
-- SG90 Servo Motor (4 adet)
-- HW-131 Voltaj Arttırıcı Modül
-- Jumper Kablolar
-- Blynk Mobil Uygulaması
+## 🧰 Technologies and Components Used
+- ESP8266 Wi-Fi Module
+- SG90 Servo Motors (4 units)
+- HW-131 Voltage Boost Converter
+- Jumper Wires
+- Blynk Mobile Application
 - Arduino IDE
 
-## ⚙️ Yazılım Özellikleri
-- Blynk ile Wi-Fi bağlantısı ve canlı kontrol
-- 4 adet servo motor ile gripper hareket kontrolü
-- ESP8266 üzerinden mobil bağlantı
+## ⚙️ Software Features
+- Wi-Fi connectivity and real-time control with Blynk
+- Gripper motion control with 4 servo motors
+- Mobile connectivity through ESP8266
 
-## 🔧 Nasıl Kurulur?
-1. Arduino IDE’yi açın.
-2. Gerekli kütüphaneleri yükleyin:
+## 🔧 How to Set It Up
+1. Open the Arduino IDE.
+2. Install the necessary libraries:
    - `BlynkSimpleEsp8266.h`
    - `Servo.h`
-3. `ROBOTIK.ino` dosyasını açın.
-4. `ssid`, `pass` ve `BLYNK_AUTH_TOKEN` bilgilerini kendi bilgilerinizle değiştirin.
-5. ESP8266 kart ayarlarını yapın ve kodu yükleyin.
-6. Blynk uygulamasında 4 widget ile pinleri ayarlayın (V1-V4).
+3. Open the ROBOTIK.ino file.
+4. Replace the ssid, pass, and BLYNK_AUTH_TOKEN fields with your own credentials.
+5. Configure the ESP8266 board settings and upload the code.
+6. In the Blynk app, add 4 widgets and assign pins V1–V4.
 
-## 📄 Belgeler
-Proje detaylarını [robotik.pdf](./robotik.pdf) dosyasından inceleyebilirsiniz.
+## 📄 Documentation
+You can find detailed project documentation in the robotik.pdf file.
 
-## 👨‍💻 Geliştirici Ekibi
+## 👨‍💻 Development Team
 - Muhammet Akif AYAN 
 - Oğuzhan TÜRKMEN 
 - Oğuzhan YALÇIN 
 
-## 🏫 Çorum Hitit Üniversitesi
-Bilgisayar Mühendisliği Bölümü – ROBOTİK Proje Ödevi 
+## 🏫 Çorum Hitit University
+Department of Computer Engineering – ROBOTICS Course Project 
